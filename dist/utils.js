@@ -3,7 +3,7 @@ exports.__esModule = true;
 exports.createCompleteUser = exports.returnUsername = exports.returnId = exports.usersDirectory = exports.writeFile = exports.checkExit = exports.createUsername = exports.errorMessage = void 0;
 var errorMessage = function (instruction) {
     var illegalInstruction = "illegal instruction: ".concat(instruction, "\n       usage: INSERT username\n       SELECT [username]\n       EXIT [code]");
-    return illegalInstruction;
+    return console.log(illegalInstruction);
 };
 exports.errorMessage = errorMessage;
 var createUsername = function (entries) {

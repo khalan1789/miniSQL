@@ -4,7 +4,8 @@ export const errorMessage = (instruction: string) => {
        usage: INSERT username
        SELECT [username]
        EXIT [code]`
-      return illegalInstruction
+      return console.log(illegalInstruction)
+       
 }
 
 export type ExtractFn = (entries: string[]) => string
