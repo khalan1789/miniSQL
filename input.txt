@@ -1,3 +1,2 @@
 INSERT Geralt
-SELECT Bob
-INSERT Alafin
+INSERT Bob

@@ -1,0 +1,3 @@
+INSERT Lui c'est bon
+INS second pas bon
+INSERT Après le pas bon du second : troisieme 
