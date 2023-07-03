@@ -4,7 +4,7 @@ const rl = readline.createInterface({input : process.stdin,output : process.stdo
 import {errorMessage, checkExit, createUsername, writeFile, returnId, createCompleteUser, returnUsername} from './utils'
 import * as fs from 'fs'
 
-const usersDirectory = './dist/users'
+const usersDirectory = './users'
 
 
 const returnCreatedEntry = (id: number, username: string) => {
