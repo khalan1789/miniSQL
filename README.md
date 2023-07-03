@@ -1,5 +1,5 @@
 # miniSQL
-It was the ultime challenge from Arena01 by TheArenaProject
+It was the ultime challenge from Arena01 by TheArenaProject that i had to do
 
 <h2>What is it ?</h2>
 It consists of coding a simplified version of a database.
@@ -10,17 +10,11 @@ When starting the program, it should wait for instructions passed on the standar
 
 A prefix miniSQL$ should indicate that the program is waiting for instructions, like when opening a shell.
 
-Instructions can be passed by the standart input or via a pipe or in the CLI like : echo -e "INSERT julius1\nINSERT julius2\n" | npm run start
+Instructions can be passed by the standart input or via a pipe or in the CLI like ``` echo -e "INSERT julius1\nINSERT julius2\n" | npm run start ```
 
-But this program does not run as usual.
+<h2>How should it works ?</h2>
 
-For this program, you will need to submit a package.json file containing at least the following scripts:
-
-build: this script must compile all your TypeScript files into a folder called dist at the root of your repository. start: this script will start your compiled program in the dist folder.
-
-<h2>How should it works ?<h2>
-
-You start the program with npm run start.
+You start the program with ```npm run start```.
 
 You can pass only these three following instruction : INSERT, SELECT, EXIT .
 
@@ -34,12 +28,19 @@ The ```SELECT``` command takes an optional username argument and returns all mat
 
 The ```EXIT``` command allows you to exit the program with an exit code provided as an argument or 0 if not specified.
 
-<h2>Constraints<h2>
+<h2>Constraints</h2>
 
 Under no circumstances should the program exit with an error code 1.
 It is therefore possible to pass numerous instructions to the program in a row.
 
-<h2>How to test it ?<h2>
+But this program does not run as usual.
+
+For this program, I needed to submit a package.json file containing at least the following scripts:
+
+ - build: this script must compile all your TypeScript files into a folder called dist at the root of your repository. 
+ - start: this script will start your compiled program in the dist folder.
+ 
+<h2>How to test it ?</h2>
 
 First clone these repository. Then, go into these repository, and follow these three steps to install it on your computer : 
 
