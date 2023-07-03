@@ -8,12 +8,12 @@
     "build": "mkdir users && tsc --build",
     "start": " node ./dist/index.js "
   },
-  "author": "",
+  "author": "Benjamin Ducau",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^18.15.12"
+       "typescript": "^5.0.4"
   },
   "dependencies": {
-    "typescript": "^5.0.4"
+     "@types/node": "^18.15.12"
   }
 }
