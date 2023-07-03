@@ -31,7 +31,7 @@ The ```SELECT``` command takes an optional username argument and returns all mat
 
 The ```EXIT``` command allows you to exit the program with an exit code provided as an argument or 0 if not specified.
 
-<h2>Constraints</h2>
+
 <h2>Constraints</h2>
 
 Under no circumstances should the program exit with an error code 1.
