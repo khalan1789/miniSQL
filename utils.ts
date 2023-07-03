@@ -42,7 +42,7 @@ export const writeFile: WriteFileSyncFn = (path: string, buffer: string) => {
     
 } 
 
-export const usersDirectory = './dist/users'
+export const usersDirectory = './users'
 export const returnId = (filename: string) => {
           return filename.split('.')[0]
         }
