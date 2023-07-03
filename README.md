@@ -14,7 +14,6 @@ Instructions can be passed by the standart input or via a pipe or in the CLI lik
 Instructions can be passed by the standart input or via a pipe or in the CLI like ``` echo -e "INSERT julius1\nINSERT julius2\n" | npm run start ```
 
 <h2>How should it works ?</h2>
-<h2>How should it works ?</h2>
 
 You start the program with ```npm run start```.
 You start the program with ```npm run start```.
