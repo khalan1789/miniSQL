@@ -21,14 +21,14 @@ export const checkExit = (entries: string[]) => {
     if(!entries[1]){
         return true
     } else {
-        if(entries.length > 2) {
-            return false       
-        }
+        // if(entries.length > 2) {
+        //     return false       
+        // }
         let argValue = parseInt(entries[1])
         if(isNaN(argValue)){
             return false
         } else {
-           return argValue === 1 ? true : false  
+          return argValue >= 0 && argValue <= 255 ? true : false  
         }
     } 
 }
