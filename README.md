@@ -11,11 +11,9 @@ When starting the program, it should wait for instructions passed on the standar
 A prefix miniSQL$ should indicate that the program is waiting for instructions, like when opening a shell.
 
 Instructions can be passed by the standart input or via a pipe or in the CLI like ``` echo -e "INSERT julius1\nINSERT julius2\n" | npm run start ```
-Instructions can be passed by the standart input or via a pipe or in the CLI like ``` echo -e "INSERT julius1\nINSERT julius2\n" | npm run start ```
 
 <h2>How should it works ?</h2>
 
-You start the program with ```npm run start```.
 You start the program with ```npm run start```.
 
 You can pass only these three following instruction : INSERT, SELECT, EXIT .
